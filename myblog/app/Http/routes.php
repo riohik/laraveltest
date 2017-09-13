@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/gonow', function () {
+    return view('posts.index');
+});
+Route::get('/', function () {
+    return view('steedpage.index');
+});
